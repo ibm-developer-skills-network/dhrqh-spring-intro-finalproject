@@ -25,13 +25,24 @@
         .registration-container h2 {
             margin-bottom: 20px;
         }
-        .registration-container input, .registration-container select {
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
+    .registration-container input, .registration-container select {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    .registration-container select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        background-size: 1em;
+    }
+
         .registration-container button {
             width: 80%;
             padding: 10px;
